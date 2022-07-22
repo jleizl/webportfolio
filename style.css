@@ -1,0 +1,47 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding:  0;
+	box-sizing: border-box;
+}
+* {
+	font-family: 'Mulish', sans-serif;
+	font-family: 'Zilla Slab', serif;
+}
+
+
+#navbar {
+	height: 3rem;
+	width: 100%;
+}
+
+#nav_list {
+	font-size: 20px;
+}
+
+#landingPage {
+	background-color: rgba(250, 128, 114,0.40);
+	height: 110vh;
+	width: 50vw;	
+	position: relative;
+	align-items: baseline;
+}
+
+body {
+	background-image: url(https://images.pexels.com/photos/7976210/pexels-photo-7976210.jpeg?);
+	background-size: cover;
+	background-repeat: no-reply 
+}
+
+.fa-icons {
+	font-size: 2rem;
+}
+
+html {
+	scroll-behavior: smooth;	
+}
+
+#footer {
+	height: 3rem;
+	width: 100%;
+}
