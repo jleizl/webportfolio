@@ -55,10 +55,68 @@
                         </div>
                     </li>
                 </ul>
-            </div>
+ form           </div>
         </nav>
     </header>
     <!-- End of navbar -->
+    <main>
+    <!-- Contact Section -->
+    <div class="row justify-content-center mx-auto">
+        <div class="col-4">
+            <h2 class="text-center text-dark my-3" id="contact-section">Contact Me!</h2>
+            <form id="contactform" class="text-center text-dark p-2">
+                <div class="-group">
+                    <label for="inputname">Name</label>
+                    <input class="form-control" id="inputname" type="text" name="name" placeholder="Your Name" />
+                </div>
+                <div class="form-group">
+                    <label for="inputemail">Email Address</label>
+                    <input class="form-control" id="inputemail" type="email" name="email" placeholder="name@example.com" />
+                </div>
+                <div class="form-group">
+                    <label for="inputnumber">Contact Number</label>
+                    <input class="form-control" id="inputnumber" type="text" name="number" placeholder="+63 900 000 0000" />
+                </div>
+                <div class="form-group">
+                    <label for="concern">Concern</label>
+                    <select class="form-control" id="concern" name="concern">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Others</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="5"></textarea>
+                </div>
+                <button class="btn btn-dark btn-outline-light" type="button" data-toggle="modal" data-target="#submit-message">Send Email</button>
+                <!-- modal -->
+                <div id="submit-message" class="modal" tabindex="-1" aria-labelledby="#ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-dark" id="ModalLabel">Thank you for contacting us!</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body text-dark">
+                                <p>Message Successfully Sent</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of modal -->
+            </form>
+        </div>
+    </div>
+</main>
+
     <!-- footer -->
     <footer class="text-center text-dark sticky-bottom pt-2">
         <p class="mx-auto">All assets are used for educational purposes ONLY!</p>
