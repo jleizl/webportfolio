@@ -32,6 +32,10 @@ body {
 	background-size: cover;
 }
 
+#introduction {
+	font-size: x-large;
+ 	font-weight: 400;
+}
 
 .fa-icons {
 	font-size: 2rem;
@@ -58,6 +62,14 @@ html {
 
 
 #contactform{
-	outline: paleturquoise;
+	outline: #20B0B7;
 	outline-style: solid;
+}
+
+#modaldialogbox {
+	background-color: rgba(32,176, 183, 0.5);
+}
+
+#aboutme {
+	font-size: 18px;
 }

@@ -21,29 +21,37 @@
     <!-- navbar -->
     <header id="navbar" class="container-fluid">
         <nav class="row navbar navbar-expand-lg navbar-light text-light justify-content-between sticky-top">
+            <!-- add personalized icon here -->
+            <!-- Home Button -->
             <div class="col-4 ml-5">
                 <a class="navbar-brand mx-auto" href="./index.html">
                     <img id="jleizl_icon" class="img-fluid rounded-circle image-float-center mx-auto" src="./images/jleizl_icon.jpg" width="50" height="50" alt="JleizlIcon">
                 </a>
-                <!-- add personalized icon here -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
+            <!-- end of personalized icon -->
+            <!-- nav-list -->
             <div class="col-6 collapse navbar-collapse text-dark-" id="navbarNavDropdown">
                 <ul id="nav_list" class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link px-3" href="./index.html">HOME<span class="sr-only"></span></a>
-                    </li>
+                    <!-- about -->
                     <li class="nav-item">
                         <a class="nav-link px-3" href="./about.html">About<span class="sr-only"></span></a>
                     </li>
+                    <!-- gallery -->
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="./gallery.html">Gallery<span class="sr-only"></span></a>
+                    </li>
+                    <!-- Work -->
                     <li class="nav-item">
                         <a class="nav-link px-3" href="./work.html">Work</a>
                     </li>
+                    <!-- contact -->
                     <li class="nav-item">
                         <a class="nav-link px-3" href="./contact.html">Contact</a>
                     </li>
+                    <!-- services -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle px-3" href="./services.html" role="button" data-toggle="dropdown" aria-expanded="false">
                             Other Services
@@ -56,6 +64,7 @@
                     </li>
                 </ul>
             </div>
+            <!-- end of nav-list -->
         </nav>
     </header>
     <!-- End of navbar -->
@@ -73,7 +82,7 @@
         <div class="col-5">
             <h2 class="text-center text-dark my-3" id="contact-section">Contact Me!</h2>
             <form id="contactform" class="text-center text-dark p-2">
-                <div class="-group">
+                <div class="form-group">
                     <label for="inputname">Name</label>
                     <input class="form-control" id="inputname" type="text" name="name" placeholder="Your Name" />
                 </div>
@@ -103,14 +112,14 @@
                 <!-- modal -->
                 <div id="submit-message" class="modal" tabindex="-1" aria-labelledby="#ModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
-                        <div class="modal-content">
+                        <div id="modaldialogbox" class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title text-dark" id="ModalLabel">Thank you for contacting us!</h5>
+                                <h5 class="modal-title text-light" id="ModalLabel">Thank you for contacting us!</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="modal-body text-dark">
+                            <div class="modal-body text-light">
                                 <p>Message Successfully Sent</p>
                             </div>
                             <div class="modal-footer">
