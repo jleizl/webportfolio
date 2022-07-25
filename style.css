@@ -79,7 +79,7 @@ html {
 }
 
 #mybusiness {
-	background-color: rgba(0, 130, 160, 0.3)
+	background-color: rgba(32,176, 183, 0.4)
 }
 
 #ulmybusiness {
@@ -87,16 +87,16 @@ html {
 }
 
 #previousjobs {
-	background-color: rgba(0, 130, 160, .4)
+	background-color: rgba(32,176, 183, .4)
 }
 
 #college {
 	list-style-position: inside
-	background-color: rgba(0, 130, 160, .5)
+	background-color: rgba(32,176, 183, .4)
 }
 
 #educational {
-	background-color: rgba(0, 130, 160, 0.6)
+	background-color: rgba(32,176, 183, 0.4)
 }
 
 #uleducational {
