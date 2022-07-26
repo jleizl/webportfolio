@@ -68,69 +68,68 @@
         </nav>
     </header>
     <!-- End of navbar -->
-    <main>
-        <!-- Contact Section -->
-        <div class="container-fluid">
-            <!-- location -->
-            <div class="row d-flex flex-wrap justify-content-around mx-auto">
-                <div class="col-10 col-lg-5 mt-5">
-                    <h2 class="text-center pt-4">Location</h2>
-                    <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248150.73041364437!2d122.03328887931927!3d13.636146575844979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a2f8279cc1bf93%3A0xf46c422525a95334!2sCatanauan%2C%20Quezon!5e0!3m2!1sen!2sph!4v1658600928633!5m2!1sen!2sph" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                </div>
-                <!-- contact -->
-                <div class="col-10 col-lg-5 mt-5">
-                    <h2 class="text-center text-dark my-3" id="contact-section">Contact Me!</h2>
-                    <form id="contactform" class="text-center text-dark p-2">
-                        <div class="form-group">
-                            <label for="inputname">Name</label>
-                            <input class="form-control" id="inputname" type="text" name="name" placeholder="Your Name" />
-                        </div>
-                        <div class="form-group">
-                            <label for="inputemail">Email Address</label>
-                            <input class="form-control" id="inputemail" type="email" name="email" placeholder="name@example.com" />
-                        </div>
-                        <div class="form-group">
-                            <label for="inputnumber">Contact Number</label>
-                            <input class="form-control" id="inputnumber" type="text" name="number" placeholder="+63 900 000 0000" />
-                        </div>
-                        <div class="form-group">
-                            <label for="concern">Concern</label>
-                            <select class="form-control" id="concern" name="concern">
-                                <option>Quotation</option>
-                                <option>Design Layouts</option>
-                                <option>Availability</option>
-                                <option>Services</option>
-                                <option>Others</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="5"></textarea>
-                        </div>
-                        <button class="btn btn-info btn-outline-light" type="button" data-toggle="modal" data-target="#submit-message">Send Email</button>
-                        <!-- modal -->
-                        <div id="submit-message" class="modal" tabindex="-1" aria-labelledby="#ModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div id="modaldialogbox" class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title text-light" id="ModalLabel">Thank you for contacting us!</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body text-light">
-                                        <p>Message Successfully Sent</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    </div>
+    <!-- Contact Section -->
+    <main class="container-fluid pt-3">
+        <!-- location -->
+        <div class="row d-flex flex-wrap justify-content-around mx-auto">
+            <div class="col-12 col-lg-5 mt-5">
+                <h2 class="text-center pt-4">Location</h2>
+                <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248150.73041364437!2d122.03328887931927!3d13.636146575844979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a2f8279cc1bf93%3A0xf46c422525a95334!2sCatanauan%2C%20Quezon!5e0!3m2!1sen!2sph!4v1658600928633!5m2!1sen!2sph" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+            <!-- contact -->
+            <div class="col-12 col-lg-5 mt-5">
+                <h2 class="text-center text-dark my-3" id="contact-section">Contact Me!</h2>
+                <form id="contactform" class="text-center text-dark p-2">
+                    <div class="form-group">
+                        <label for="inputname">Name</label>
+                        <input class="form-control" id="inputname" type="text" name="name" placeholder="Your Name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputemail">Email Address</label>
+                        <input class="form-control" id="inputemail" type="email" name="email" placeholder="name@example.com" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputnumber">Contact Number</label>
+                        <input class="form-control" id="inputnumber" type="text" name="number" placeholder="+63 900 000 0000" />
+                    </div>
+                    <div class="form-group">
+                        <label for="concern">Concern</label>
+                        <select class="form-control" id="concern" name="concern">
+                            <option>Quotation</option>
+                            <option>Design Layouts</option>
+                            <option>Availability</option>
+                            <option>Services</option>
+                            <option>Others</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
+                    </div>
+                    <button class="btn btn-info btn-outline-light" type="button" data-toggle="modal" data-target="#submit-message">Send Email</button>
+                    <!-- modal -->
+                    <div id="submit-message" class="modal" tabindex="-1" aria-labelledby="#ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div id="modaldialogbox" class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-light" id="ModalLabel">Thank you for contacting us!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body text-light">
+                                    <p>Message Successfully Sent</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
-                        <!-- end of modal -->
-                    </form>
-                </div>
+                    </div>
+                    <!-- end of modal -->
+                </form>
             </div>
+        </div>
     </main>
     <!-- footer -->
     <footer class="text-center text-dark sticky-bottom pt-5">
