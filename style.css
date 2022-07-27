@@ -83,11 +83,13 @@ html {
 }
 
 #ulmybusiness {
-  	list-style-position: inside
+  	list-style-position: inside;
+  	text-align: justify;
 }
 
 #previousjobs {
 	background-color: rgba(32,176, 183, .4)
+	height: 20;
 }
 
 #college {
